@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'rlarmlinked-rg'
     location: 'Australia East'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/Robert-lintun/RL-ARMPipeline-repo/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAACEOMNSZYXYXKBFNRCLJT4RSZF2QQ7Q'
+    csmFileLink: 'https://github.com/Robert-lintun/RL-ARMPipeline-repo/blob/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName rlarmcicd'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
